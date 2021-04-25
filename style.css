@@ -1,0 +1,165 @@
+body{
+    font-family: "Poppins",sans-serif;
+    margin:0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.menu{
+    font-weight: bold;
+    color: white;
+    background-color: #45015d;
+    border-radius: 15px;
+    padding: 10px 20px;
+    height: 100%;
+    width: 150px;
+    font-size: 24px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.menu .link{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    font-size: 24px;
+    margin:10px 0;
+}
+.main{
+    margin-left: 360px;
+    margin-top: 80px;
+}
+.main h1{
+    font-size: 64px;
+    font-weight:400;
+}
+.images img{
+    width: 45%;
+    border-radius: 10px;
+    padding: 5px;
+    opacity: 0.7;
+}
+.images img:hover{
+    opacity: 1;
+}
+h2{
+    color: #45015d;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+hr{
+    width: 100%;
+    border: 5px solid;
+    color: #45015d;
+    border-radius: 4px;
+    margin:20px 0;
+}
+.member{
+    display: inline-block;
+    width: 30%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.member img{
+    width: 100%;
+    filter: grayscale(30%);
+    border-radius: 10px;
+}
+.desc{
+    background: #f1f1f1;
+    border-radius: 8px;
+    padding: 2px 16px 5px;
+}
+.position{
+    color: gray;
+}
+
+.tariffs .tariff{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    box-sizing: border-box;
+    vertical-align: middle;
+    
+}
+.tariff ul{
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 0 ;
+    margin: 0 ;
+    color: black;   
+}
+.tariff li{
+    list-style-type: none;
+    border-bottom: 1px solid #dddddd;
+    padding: 16px 0;
+}
+.tariff .tariff-name{
+    color:white;
+    background-color: #45015d;
+    padding: 32px 0;
+    border-radius: 10px 10px 0 0;
+    font-size: 24px;
+}
+.tariff .price{
+    font-size: 24px;
+    font-weight: 400;
+}
+.tariff .period{
+    opacity: 0.7;
+}
+.tariff button{
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    background-color:#45015d;
+    color: white;
+}
+.tariff button:hover{
+    background-color: white;
+    color: black;
+}
+.pro .tariff-name{
+    background-color: #f44336;
+}
+.pro button{
+    background-color: #f44336;
+}
+
+.contacts input{
+    width: 100%;
+    display: block;
+    outline: none;
+    border: #ccc 1px solid;
+    box-sizing: border-box;
+    padding: 8px;
+}
+.contacts button{
+    width: 100%;
+    padding: 8px;
+    background-color:#45015d ;
+    font-size: 24px;
+    color:white;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+}
+.contacts button:hover{
+    background-color: #ccc;
+    color: black;
+}
+.footer{
+    padding: 32px 58px 32px;
+    background-color: #f1f1f1;
+    text-align: right;
+    
+}
+.footer a{
+    color: black;
+    
+}
